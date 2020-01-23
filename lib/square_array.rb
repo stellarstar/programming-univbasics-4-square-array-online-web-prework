@@ -1,5 +1,10 @@
 def square_array(array)
-square_array (array) [0, 1, 2, 3]
-count = 0   
-while [0**2, 1**2, 2**2]
+  results= []
+  counter = 0
+  while counter < array.size 
+    results<<array[counter]*
+array[counter] 
+    counter += 1
+end
+  results
 end
